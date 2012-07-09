@@ -1,0 +1,274 @@
+TDiaryProject
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/Info.plist Url/DiaryProject-Info.plist
+cProcessPCH /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch.pth Url/DiaryProject-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/main.o /Users/User/Midori/DiaryProject/Url/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/AppDelegate.o /Users/User/Midori/DiaryProject/Url/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/ViewController.o /Users/User/Midori/DiaryProject/Url/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/StringHelper.o /Users/User/Midori/DiaryProject/Url/StringHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject normal i386
+cGenerateDSYMFile /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app.dSYM /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject
+cCopyStringsFile /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/en.lproj/InfoPlist.strings Url/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/User/Midori/DiaryProject/Url/en.lproj/MainStoryboard.storyboard
+cTouch /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FF346D40000000000244490
+t1341343444
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FF346D60000000000353830
+t1341343446
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FF346E10000000000905E40
+t1341343457
+s9461312
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/DiaryProject.LinkFileList
+c000000004FFB412100000000000002A9
+t1341866273
+s681
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/StringHelper.o
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch.pth
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app.dSYM
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/Info.plist
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/PkgInfo
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/User/Midori/DiaryProject/Url/AppDelegate.m
+c000000004FF95A9700000000000007F9
+t1341741719
+s2041
+
+N/Users/User/Midori/DiaryProject/Url/DiaryProject-Prefix.pch
+c000000004FF95A970000000000000135
+t1341741719
+s309
+
+N/Users/User/Midori/DiaryProject/Url/StringHelper.m
+c000000004FF989920000000000000421
+t1341753746
+s1057
+
+N/Users/User/Midori/DiaryProject/Url/ViewController.m
+c000000004FF9A3460000000000000CFB
+t1341760326
+s3323
+
+N/Users/User/Midori/DiaryProject/Url/en.lproj/InfoPlist.strings
+c000000004FF95A97000000000000002D
+t1341741719
+s45
+
+N/Users/User/Midori/DiaryProject/Url/en.lproj/MainStoryboard.storyboard
+c000000004FF9B061000000000000193D
+t1341763681
+s6461
+
+N/Users/User/Midori/DiaryProject/Url/main.m
+c000000004FF95A970000000000000153
+t1341741719
+s339
+
+NUrl/DiaryProject-Info.plist
+c000000004FF95A9700000000000004CB
+t1341741719
+s1227
+
+NUrl/Url-Info.plist
+c00000000000000000000000000000000
+t2
+s0
+
+CBuild AST from /Users/User/Midori/DiaryProject/Url/AppDelegate.m
+r0
+
+CBuild AST from /Users/User/Midori/DiaryProject/Url/StringHelper.m
+r0
+
+CBuild AST from /Users/User/Midori/DiaryProject/Url/ViewController.m
+r0
+
+CBuild AST from /Users/User/Midori/DiaryProject/Url/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies200923a178abb541^89d040a178abb541^---0#1#0#--18"Check dependencies36"E7433441-6E51-4169-B9B6-1FCA77467FB3-
+
+CCompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/AppDelegate.o /Users/User/Midori/DiaryProject/Url/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363559077.829987
+e363559077.876753
+r1
+xCompileC
+xDerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/AppDelegate.o
+x/Users/User/Midori/DiaryProject/Url/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/User/Midori/DiaryProject/Url/AppDelegate.m5c91d4a578abb541^7574e0a578abb541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/User/Midori/DiaryProject/Url/AppDelegate.m0000000000000000^3726"CompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/AppDelegate.o Url/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/User/Midori/DiaryProject    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-generated-files.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-own-target-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-all-target-headers.hmap -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-project-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/include -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources/i386 -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources -F/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator -include /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch -MMD -MT dependencies -MF /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/AppDelegate.dia -c /Users/User/Midori/DiaryProject/Url/AppDelegate.m -o /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/AppDelegate.o36"26DF1126-F86F-4E36-9429-4A2DCF323005-
+
+CCompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/StringHelper.o /Users/User/Midori/DiaryProject/Url/StringHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363559077.971000
+e363559077.995772
+r1
+xCompileC
+xDerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/StringHelper.o
+x/Users/User/Midori/DiaryProject/Url/StringHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/User/Midori/DiaryProject/Url/StringHelper.meaaef8a578abb541^39ecfea578abb541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/User/Midori/DiaryProject/Url/StringHelper.m0000000000000000^3732"CompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/StringHelper.o Url/StringHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/User/Midori/DiaryProject    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-generated-files.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-own-target-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-all-target-headers.hmap -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-project-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/include -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources/i386 -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources -F/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator -include /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch -MMD -MT dependencies -MF /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/StringHelper.d --serialize-diagnostics /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/StringHelper.dia -c /Users/User/Midori/DiaryProject/Url/StringHelper.m -o /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/StringHelper.o36"38286E1B-8E35-43DA-BD4C-F246C83EB025-
+
+CCompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/ViewController.o /Users/User/Midori/DiaryProject/Url/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363559077.880108
+e363559077.968714
+r1
+xCompileC
+xDerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/ViewController.o
+x/Users/User/Midori/DiaryProject/Url/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/User/Midori/DiaryProject/Url/ViewController.m486ae1a578abb541^8ffef7a578abb541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/User/Midori/DiaryProject/Url/ViewController.m0000000000000000^3744"CompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/ViewController.o Url/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/User/Midori/DiaryProject    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-generated-files.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-own-target-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-all-target-headers.hmap -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-project-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/include -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources/i386 -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources -F/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator -include /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch -MMD -MT dependencies -MF /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/ViewController.dia -c /Users/User/Midori/DiaryProject/Url/ViewController.m -o /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/ViewController.o36"F547E926-6EA6-4DF7-B2A2-18ACE3A086EE-
+
+CCompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/main.o /Users/User/Midori/DiaryProject/Url/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363559076.607637
+e363559077.827549
+r1
+xCompileC
+xDerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/main.o
+x/Users/User/Midori/DiaryProject/Url/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/User/Midori/DiaryProject/Url/main.m8ec89ba478abb541^0adbd3a578abb541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/User/Midori/DiaryProject/Url/main.m0000000000000000^3684"CompileC DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/main.o Url/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/User/Midori/DiaryProject    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-generated-files.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-own-target-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-all-target-headers.hmap -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-project-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/include -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources/i386 -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources -F/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator -include /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch -MMD -MT dependencies -MF /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/main.dia -c /Users/User/Midori/DiaryProject/Url/main.m -o /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/main.o36"70F348E7-EA11-4A51-AA24-32FDBA4E84A4-
+
+CCompileStoryboard /Users/User/Midori/DiaryProject/Url/en.lproj/MainStoryboard.storyboard
+s363559078.959312
+e363559080.330571
+r1
+xCompileStoryboard
+x/Users/User/Midori/DiaryProject/Url/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"CompileStoryboard Url/en.lproj/MainStoryboard.storyboardb8b1f5a678abb541^6cee54a878abb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/User/Midori/DiaryProject/Url/en.lproj/MainStoryboard.storyboard0000000000000000^909"CompileStoryboard Url/en.lproj/MainStoryboard.storyboard    cd /Users/User/Midori/DiaryProject    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/en.lproj/MainStoryboard.storyboardc /Users/User/Midori/DiaryProject/Url/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"F614D3D3-EB2C-4EE4-B551-7D477DAD055B-
+
+CCopyStringsFile /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/en.lproj/InfoPlist.strings Url/en.lproj/InfoPlist.strings
+s363559078.958479
+e363559079.013270
+r1
+xCopyStringsFile
+x/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/en.lproj/InfoPlist.strings
+xUrl/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy Url/en.lproj/InfoPlist.strings207ff5a678abb541^b66603a778abb541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/User/Midori/DiaryProject/Url/en.lproj/InfoPlist.strings0000000000000000^631"CopyStringsFile DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/en.lproj/InfoPlist.strings Url/en.lproj/InfoPlist.strings    cd /Users/User/Midori/DiaryProject    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/en.lproj -- Url/en.lproj/InfoPlist.strings36"C08C2278-FB06-40A4-BFC5-6B697F29336B-
+
+CGenerateDSYMFile /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app.dSYM /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject
+s363559078.786382
+e363559078.944627
+r1
+xGenerateDSYMFile
+x/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app.dSYM
+x/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Generating /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app.dSYM9967c9a678abb541^89d3f1a678abb541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app.dSYM000000000080d041^779"GenerateDSYMFile DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app.dSYM DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject    cd /Users/User/Midori/DiaryProject    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject -o /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app.dSYM36"4A1F6B7E-C54B-4817-823F-02487C56D771-
+
+CLd /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject normal i386
+s363559078.004469
+e363559078.777270
+r1
+xLd
+x/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Link /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject0c3a01a678abb541^48fcc6a678abb541^---0#0#0#--1336"Ld DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject normal i386    cd /Users/User/Midori/DiaryProject    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator -F/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator -filelist /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/Objects-normal/i386/DiaryProject.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/DiaryProject36"8DE95812-E012-479E-99D2-1775D05230B4-
+
+CProcessInfoPlistFile /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/Info.plist Url/DiaryProject-Info.plist
+s363559073.380692
+e363559073.500583
+r1
+xProcessInfoPlistFile
+x/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/Info.plist
+xUrl/DiaryProject-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Process Url/DiaryProject-Info.plistbe6b6ca178abb541^003a80a178abb541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/User/Midori/DiaryProject/Url/DiaryProject-Info.plist0000000000000000^748"ProcessInfoPlistFile DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/Info.plist Url/DiaryProject-Info.plist    cd /Users/User/Midori/DiaryProject    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Url/DiaryProject-Info.plist -genpkginfo /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/Info.plist36"52502159-DD43-4269-8E12-043CAEDFD595-
+
+CProcessInfoPlistFile /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app/Info.plist Url/Url-Info.plist
+r0
+
+CProcessPCH /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch.pth Url/DiaryProject-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363559073.513366
+e363559076.600396
+r1
+xProcessPCH
+x/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch.pth
+xUrl/DiaryProject-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Url/DiaryProject-Prefix.pch6ec083a178abb541^3cbe99a478abb541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/User/Midori/DiaryProject/Url/DiaryProject-Prefix.pch0000000000000000^3581"ProcessPCH DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch.pth Url/DiaryProject-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/User/Midori/DiaryProject    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-generated-files.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-own-target-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-all-target-headers.hmap -iquote /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DiaryProject-project-headers.hmap -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/include -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources/i386 -I/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/DiaryProject.build/Debug-iphonesimulator/DiaryProject.build/DerivedSources -F/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch.dia -c /Users/User/Midori/DiaryProject/Url/DiaryProject-Prefix.pch -o /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch.pth -MMD -MT dependencies -MF /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Intermediates/PrecompiledHeaders/DiaryProject-Prefix-ggmataedynufhrgrfgjgailrosjv/DiaryProject-Prefix.pch.d36"623756DF-9E29-4E08-89BB-AC1A6F3A8BD6-
+
+CProcessPCH /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Index/PrecompiledHeaders/DiaryProject-Prefix-erlnrsmzsuxzbwaeoivkcwbemmja_ast/DiaryProject-Prefix.pch.pth Url/DiaryProject-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app
+s363559080.340025
+e363559080.390539
+r1
+xTouch
+x/Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Touch /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app462357a878abb541^200864a878abb541^---0#0#0#--452"Touch DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app    cd /Users/User/Midori/DiaryProject    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/User/Midori/DiaryProject/DerivedData/DiaryProject/Build/Products/Debug-iphonesimulator/DiaryProject.app36"1E9A81B0-402C-4BC1-A85D-E0BFB2EAAF15-
+
