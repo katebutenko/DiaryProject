@@ -10,7 +10,6 @@
 #import "StringHelper.h"
 #import "HTMLNode.h"
 #import "HTMLParser.h"
-#import "TouchableImageView.h"
 
 #define add(A,B)    [(A) stringByAppendingString:(B)]
 
@@ -93,14 +92,14 @@
         NSArray* foundInText = [regexToUse matchesInString:rawPost options:0 range:NSMakeRange(0, [rawPost length])];
         if (foundInText.count>0){
         NSString* rawPostCopy = [rawPost copy];
-        //NSString* firstPartOfString;
-        //NSString* lastPartOfString;
-            
+
+            //divide post text in parts before and after images and add parts to one array 
             NSMutableArray *textPartsBetweenImages = [[NSMutableArray alloc] initWithCapacity:100];
             int i=0;
+            //fill the array
         for (NSTextCheckingResult* b in foundInText)
         {
-            //NSString* imgTag = [rawPost substringWithRange:b.range];
+            
             if (i==0){
                 NSString *tempstring = [rawPostCopy substringToIndex:b.range.location];
                 [textPartsBetweenImages addObject:tempstring];
@@ -120,40 +119,19 @@
             [textPartsBetweenImages addObject:[rawPostCopy substringWithRange:NSMakeRange(endOfPreviousPart, startOfNextPart)]];
             i++;
         }
+            //add elements of array to the output string
             i=1;
             for (NSString * part in textPartsBetweenImages){
                 NSString * tempik = [NSString stringWithFormat:@"...img %d...",i];
                 resultString = add(add(resultString,[helper clearString:part]),tempik);
             }
             resultString = add(resultString, @"\r\n---------------------------\r\n");
-        //NSString * firstPartOfStringCleared = [helper clearString:firstPartOfString];
-        //NSString * lastPartOfStringCleared = [helper clearString:lastPartOfString];
-        
-        //resultString = add(add(resultString,add(add(firstPartOfStringCleared,@"....img...."),lastPartOfStringCleared)),@"\r\n---------------------------\r\n");
-        }
+                }
         else {
             resultString = add(add(resultString, [helper clearString:rawPost]),@"\r\n---------------------------\r\n");
         }
             }
     [textView setText:resultString];
-    CGRect frame;
-    ~uiuj=
-    //frame.origin.x = 0;
-    //frame.origin.y = 0;
-    frame.size = CGSizeMake(100, 150);
-    
-NSURL * imageURL = [NSURL URLWithString:@"http://static.diary.ru/userdir/1/3/5/7/1357785/75316867.jpg"];
-    NSData * imageData = [NSData dataWithContentsOfURL:imageURL];
-    UIImage * image = [UIImage imageWithData:imageData];
-   
-        UIImageView * myImageView = [[UIImageView alloc] initWithImage:image];
-   // TouchableImageView * myImageView = [[TouchableImageView alloc] initWithFrameAndImageUrl:frame :imageURL];
-    //TouchableImageView * myImageView = [[TouchableImageView alloc] initWithImageUrl :imageURL];
-    
-    myImageView.userInteractionEnabled = YES;
-    [textView addSubview:myImageView];
-    //myImageView.frame =frame;
-    //
-}
+    }
 
 @end

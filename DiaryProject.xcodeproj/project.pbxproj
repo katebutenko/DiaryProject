@@ -10,7 +10,6 @@
 		059ACCAD15B1B91D00E7E7CC /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACCA915B1B91D00E7E7CC /* HTMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		059ACCAE15B1B91D00E7E7CC /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACCAB15B1B91D00E7E7CC /* HTMLParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		059ACCAF15B1B91D00E7E7CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 059ACCAC15B1B91D00E7E7CC /* README.md */; };
-		05FFF3E015B339BE00DB9F55 /* TouchableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FFF3DF15B339BE00DB9F55 /* TouchableImageView.m */; };
 		CE7E1FF115A9921700E82DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF015A9921700E82DD2 /* UIKit.framework */; };
 		CE7E1FF315A9921700E82DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF215A9921700E82DD2 /* Foundation.framework */; };
 		CE7E1FF515A9921700E82DD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF415A9921700E82DD2 /* CoreGraphics.framework */; };
@@ -29,8 +28,6 @@
 		059ACCAB15B1B91D00E7E7CC /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
 		059ACCAC15B1B91D00E7E7CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		059ACCB115B1BBAD00E7E7CC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		05FFF3DE15B339BE00DB9F55 /* TouchableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableImageView.h; sourceTree = "<group>"; };
-		05FFF3DF15B339BE00DB9F55 /* TouchableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableImageView.m; sourceTree = "<group>"; };
 		CE7E1FEC15A9921700E82DD2 /* DiaryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E1FF015A9921700E82DD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE7E1FF215A9921700E82DD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,8 +111,6 @@
 				CE7E1FF715A9921700E82DD2 /* Supporting Files */,
 				CE814EF015A9BD6C001AD970 /* StringHelper.h */,
 				CE814EF115A9BD6C001AD970 /* StringHelper.m */,
-				05FFF3DE15B339BE00DB9F55 /* TouchableImageView.h */,
-				05FFF3DF15B339BE00DB9F55 /* TouchableImageView.m */,
 			);
 			name = DiaryProject;
 			path = Url;
@@ -201,7 +196,6 @@
 				CE814EF215A9BD6C001AD970 /* StringHelper.m in Sources */,
 				059ACCAD15B1B91D00E7E7CC /* HTMLNode.m in Sources */,
 				059ACCAE15B1B91D00E7E7CC /* HTMLParser.m in Sources */,
-				05FFF3E015B339BE00DB9F55 /* TouchableImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
