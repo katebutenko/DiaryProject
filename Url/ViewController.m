@@ -8,6 +8,11 @@
 
 #import "ViewController.h"
 #import "StringHelper.h"
+#import "HTMLNode.h"
+#import "HTMLParser.h"
+#import "TouchableImageView.h"
+
+#define add(A,B)    [(A) stringByAppendingString:(B)]
 
 @interface ViewController ()
 
@@ -34,7 +39,7 @@
 
 - (IBAction)createRequest:(id)sender{
     NSMutableURLRequest *request = 
-                [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://legeartis.diary.ru"] 
+                [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://khkh.diary.ru"] 
                                      cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData
                                      timeoutInterval:10];
     
@@ -44,53 +49,111 @@
     NSURLResponse *urlResponse = nil;
     
     
-    NSData *response1 = [NSURLConnection sendSynchronousRequest:request returningResponse:&urlResponse error:&requestError];
-    NSString *html = [[NSString alloc] initWithBytes: [response1 bytes] length:[response1 length] encoding:NSWindowsCP1251StringEncoding];
+    NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:&urlResponse error:&requestError];
+    NSString *html = [[NSString alloc] initWithBytes: [response bytes] length:[response length] encoding:NSWindowsCP1251StringEncoding];
 
-    //find a title
-    
-    NSRegularExpression* regex1 = [[NSRegularExpression alloc] 
-                                   initWithPattern:@"<link[^>]*application/rss[^>]*title=\"(.*?)\""
-                                   options:NSRegularExpressionCaseInsensitive 
-                                   error:nil];
-    NSArray* results = [regex1 matchesInString:html options:0 range:NSMakeRange(0, [html length])];
-    NSTextCheckingResult *match = [regex1 firstMatchInString:html options:0 range:NSMakeRange(0, [html length])];
-    NSString *title = [html substringWithRange:[match rangeAtIndex:1]];
-    
-    [label setText:title];
-    //find all posts on the page
-    
-    regex1 = [[NSRegularExpression alloc] 
-              initWithPattern:@"<div[^>]*postInner[^>]*>[\\s\\S]*?<div[^>]*clear[^>]*>"
-              options:NSRegularExpressionCaseInsensitive
-              error:nil];
-    
-    results = [regex1 matchesInString:html options:0 range:NSMakeRange(0, [html length])];
-    
-  
-    NSString* contentCopy = [html copy];
+//find a title
 
-    NSString *stringWithoutTags;
-    NSString *stringWithoutEscapedSymbols;
-    NSString *resultString = [[NSString alloc] init];
-    NSString *stringWithNewlines;
     
-    //simplify each post
+    NSError *error = nil;
+        HTMLParser *parser = [[HTMLParser alloc] initWithString:html error:&error];
     
-    for (NSTextCheckingResult* foundElement in results)
-    {
-        NSString* texty = [contentCopy substringWithRange:foundElement.range];    
-        StringHelper *helper = [[StringHelper alloc] init];
-        
-        stringWithNewlines = [helper regexReplace:texty :@"<br.?>" :@"\n"];
-        stringWithoutTags = [helper regexReplace:stringWithNewlines  :@"<.*?>[\\s]*" :@""];
-        stringWithoutEscapedSymbols = [helper regexReplace:stringWithoutTags :@"&nbsp;" :@" "];
-        resultString = [[resultString stringByAppendingString:stringWithoutEscapedSymbols] stringByAppendingString:@"\r\n---------------------------\r\n"];
-        
+    if (error) {
+        NSLog(@"Error: %@", error);
+        return;
     }
     
-    [textView setText:resultString];
+    HTMLNode *headNode = [parser head];
+    
+    NSArray *titleNodes = [headNode findChildTags:@"link"]; 
+    
+    for (HTMLNode *inputNode in titleNodes) {
+        if ([[inputNode getAttributeNamed:@"type"] isEqualToString:@"application/rss+xml"]) {
+            [label setText:[inputNode getAttributeNamed:@"title"]]; //Answer to first question
+        }
+    }
 
+
+    
+//take posts
+    
+    HTMLNode *bodyNode = [parser body];
+    NSArray *postNodes = [bodyNode findChildrenOfClass:@"paragraph"];
+    
+    //simplify each post
+    NSString *resultString = [[NSString alloc] init];
+    StringHelper *helper = [[StringHelper alloc] init];
+    for (HTMLNode * postNode in postNodes){
+        //find images in post
+        NSString * rawPost = [postNode rawContents];
+        NSRegularExpression* regexToUse = [[NSRegularExpression alloc] 
+                                           initWithPattern:@"<img.*>"
+                                           options:NSRegularExpressionCaseInsensitive 
+                                           error:nil];
+        NSArray* foundInText = [regexToUse matchesInString:rawPost options:0 range:NSMakeRange(0, [rawPost length])];
+        if (foundInText.count>0){
+        NSString* rawPostCopy = [rawPost copy];
+        //NSString* firstPartOfString;
+        //NSString* lastPartOfString;
+            
+            NSMutableArray *textPartsBetweenImages = [[NSMutableArray alloc] initWithCapacity:100];
+            int i=0;
+        for (NSTextCheckingResult* b in foundInText)
+        {
+            //NSString* imgTag = [rawPost substringWithRange:b.range];
+            if (i==0){
+                NSString *tempstring = [rawPostCopy substringToIndex:b.range.location];
+                [textPartsBetweenImages addObject:tempstring];
+                if (foundInText.count>1){
+                    i++;
+                    continue;
+                }
+            }
+            if (i==foundInText.count-1){
+                [textPartsBetweenImages addObject:[rawPostCopy substringFromIndex:b.range.location+b.range.length]];
+                i++;
+                continue;
+            }
+            NSTextCheckingResult* previousResult = [foundInText objectAtIndex:i-1];
+            NSUInteger endOfPreviousPart = previousResult.range.location+previousResult.range.length;
+            NSUInteger startOfNextPart = rawPostCopy.length - endOfPreviousPart;
+            [textPartsBetweenImages addObject:[rawPostCopy substringWithRange:NSMakeRange(endOfPreviousPart, startOfNextPart)]];
+            i++;
+        }
+            i=1;
+            for (NSString * part in textPartsBetweenImages){
+                NSString * tempik = [NSString stringWithFormat:@"...img %d...",i];
+                resultString = add(add(resultString,[helper clearString:part]),tempik);
+            }
+            resultString = add(resultString, @"\r\n---------------------------\r\n");
+        //NSString * firstPartOfStringCleared = [helper clearString:firstPartOfString];
+        //NSString * lastPartOfStringCleared = [helper clearString:lastPartOfString];
+        
+        //resultString = add(add(resultString,add(add(firstPartOfStringCleared,@"....img...."),lastPartOfStringCleared)),@"\r\n---------------------------\r\n");
+        }
+        else {
+            resultString = add(add(resultString, [helper clearString:rawPost]),@"\r\n---------------------------\r\n");
+        }
+            }
+    [textView setText:resultString];
+    CGRect frame;
+    ~uiuj=
+    //frame.origin.x = 0;
+    //frame.origin.y = 0;
+    frame.size = CGSizeMake(100, 150);
+    
+NSURL * imageURL = [NSURL URLWithString:@"http://static.diary.ru/userdir/1/3/5/7/1357785/75316867.jpg"];
+    NSData * imageData = [NSData dataWithContentsOfURL:imageURL];
+    UIImage * image = [UIImage imageWithData:imageData];
+   
+        UIImageView * myImageView = [[UIImageView alloc] initWithImage:image];
+   // TouchableImageView * myImageView = [[TouchableImageView alloc] initWithFrameAndImageUrl:frame :imageURL];
+    //TouchableImageView * myImageView = [[TouchableImageView alloc] initWithImageUrl :imageURL];
+    
+    myImageView.userInteractionEnabled = YES;
+    [textView addSubview:myImageView];
+    //myImageView.frame =frame;
+    //
 }
 
 @end

@@ -32,4 +32,12 @@
     return inputCopy;
 
 }
+
+- (NSString*)clearString:(NSString *)input{
+    return [self regexReplace:[self regexReplace:[self regexReplace:input  :@"<br.?>" :@"\n"] 
+                                              :@"<.*?>[\\s]*" :@""]
+                      :@"&nbsp;" :@" "] ;
+     //stringByAppendingString:@"\r\n---------------------------\r\n"
+     
+}
 @end

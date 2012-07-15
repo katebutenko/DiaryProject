@@ -10,4 +10,5 @@
 
 @interface StringHelper : NSObject
 - (NSString*)regexReplace:(NSString*)input :(NSString*)regex :(NSString*) withString;
+- (NSString*)clearString:(NSString*)input;
 @end

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		059ACCAD15B1B91D00E7E7CC /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACCA915B1B91D00E7E7CC /* HTMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		059ACCAE15B1B91D00E7E7CC /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACCAB15B1B91D00E7E7CC /* HTMLParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		059ACCAF15B1B91D00E7E7CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 059ACCAC15B1B91D00E7E7CC /* README.md */; };
+		05FFF3E015B339BE00DB9F55 /* TouchableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FFF3DF15B339BE00DB9F55 /* TouchableImageView.m */; };
 		CE7E1FF115A9921700E82DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF015A9921700E82DD2 /* UIKit.framework */; };
 		CE7E1FF315A9921700E82DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF215A9921700E82DD2 /* Foundation.framework */; };
 		CE7E1FF515A9921700E82DD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF415A9921700E82DD2 /* CoreGraphics.framework */; };
@@ -19,14 +23,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		059ACCA815B1B91D00E7E7CC /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		059ACCA915B1B91D00E7E7CC /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		059ACCAA15B1B91D00E7E7CC /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		059ACCAB15B1B91D00E7E7CC /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		059ACCAC15B1B91D00E7E7CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		059ACCB115B1BBAD00E7E7CC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		05FFF3DE15B339BE00DB9F55 /* TouchableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableImageView.h; sourceTree = "<group>"; };
+		05FFF3DF15B339BE00DB9F55 /* TouchableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableImageView.m; sourceTree = "<group>"; };
 		CE7E1FEC15A9921700E82DD2 /* DiaryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E1FF015A9921700E82DD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE7E1FF215A9921700E82DD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE7E1FF415A9921700E82DD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE7E1FF815A9921700E82DD2 /* DiaryProject-Info.plist */ = {isa = PBXFileReference; path = "DiaryProject-Info.plist"; sourceTree = "<group>"; };
+		CE7E1FF815A9921700E82DD2 /* DiaryProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiaryProject-Info.plist"; sourceTree = "<group>"; };
 		CE7E1FFA15A9921700E82DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE7E1FFC15A9921700E82DD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE7E1FFE15A9921700E82DD2 /* DiaryProject-Prefix.pch */ = {isa = PBXFileReference; path = "DiaryProject-Prefix.pch"; sourceTree = "<group>"; };
+		CE7E1FFE15A9921700E82DD2 /* DiaryProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiaryProject-Prefix.pch"; sourceTree = "<group>"; };
 		CE7E1FFF15A9921700E82DD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE7E200015A9921700E82DD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE7E200315A9921700E82DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -50,9 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059ACCA715B1B91D00E7E7CC /* HTMLparser */ = {
+			isa = PBXGroup;
+			children = (
+				059ACCA815B1B91D00E7E7CC /* HTMLNode.h */,
+				059ACCA915B1B91D00E7E7CC /* HTMLNode.m */,
+				059ACCAA15B1B91D00E7E7CC /* HTMLParser.h */,
+				059ACCAB15B1B91D00E7E7CC /* HTMLParser.m */,
+				059ACCAC15B1B91D00E7E7CC /* README.md */,
+			);
+			path = HTMLparser;
+			sourceTree = "<group>";
+		};
 		CE7E1FE115A9921700E82DD2 = {
 			isa = PBXGroup;
 			children = (
+				059ACCB115B1BBAD00E7E7CC /* libxml2.dylib */,
+				059ACCA715B1B91D00E7E7CC /* HTMLparser */,
 				CE7E1FF615A9921700E82DD2 /* DiaryProject */,
 				CE7E1FEF15A9921700E82DD2 /* Frameworks */,
 				CE7E1FED15A9921700E82DD2 /* Products */,
@@ -88,6 +114,8 @@
 				CE7E1FF715A9921700E82DD2 /* Supporting Files */,
 				CE814EF015A9BD6C001AD970 /* StringHelper.h */,
 				CE814EF115A9BD6C001AD970 /* StringHelper.m */,
+				05FFF3DE15B339BE00DB9F55 /* TouchableImageView.h */,
+				05FFF3DF15B339BE00DB9F55 /* TouchableImageView.m */,
 			);
 			name = DiaryProject;
 			path = Url;
@@ -156,6 +184,7 @@
 			files = (
 				CE7E1FFB15A9921700E82DD2 /* InfoPlist.strings in Resources */,
 				CE7E200415A9921700E82DD2 /* MainStoryboard.storyboard in Resources */,
+				059ACCAF15B1B91D00E7E7CC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +199,9 @@
 				CE7E200115A9921700E82DD2 /* AppDelegate.m in Sources */,
 				CE7E200715A9921700E82DD2 /* ViewController.m in Sources */,
 				CE814EF215A9BD6C001AD970 /* StringHelper.m in Sources */,
+				059ACCAD15B1B91D00E7E7CC /* HTMLNode.m in Sources */,
+				059ACCAE15B1B91D00E7E7CC /* HTMLParser.m in Sources */,
+				05FFF3E015B339BE00DB9F55 /* TouchableImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +247,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
@@ -233,6 +266,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -246,7 +280,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Url/DiaryProject-Prefix.pch";
 				INFOPLIST_FILE = "Url/DiaryProject-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = DiaryProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -257,7 +294,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Url/DiaryProject-Prefix.pch";
 				INFOPLIST_FILE = "Url/DiaryProject-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = DiaryProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
