@@ -13,8 +13,8 @@
 IBOutlet UILabel *label;
     IBOutlet UIScrollView *scrollView;
     IBOutlet UITextView *textView;
+    IBOutlet UIWebView *webView;
 }
 - (IBAction)createRequest:(id)sender;
- 
 
 @end

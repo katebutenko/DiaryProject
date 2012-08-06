@@ -10,6 +10,8 @@
 		059ACCAD15B1B91D00E7E7CC /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACCA915B1B91D00E7E7CC /* HTMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		059ACCAE15B1B91D00E7E7CC /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACCAB15B1B91D00E7E7CC /* HTMLParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		059ACCAF15B1B91D00E7E7CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 059ACCAC15B1B91D00E7E7CC /* README.md */; };
+		05FD792115BB252F00B37B70 /* jquery-1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 05FD792015BB252F00B37B70 /* jquery-1.7.2.min.js */; };
+		05FD792215BB2B1E00B37B70 /* diary.js in Resources */ = {isa = PBXBuildFile; fileRef = 05FD791C15BAF01000B37B70 /* diary.js */; };
 		CE7E1FF115A9921700E82DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF015A9921700E82DD2 /* UIKit.framework */; };
 		CE7E1FF315A9921700E82DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF215A9921700E82DD2 /* Foundation.framework */; };
 		CE7E1FF515A9921700E82DD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E1FF415A9921700E82DD2 /* CoreGraphics.framework */; };
@@ -28,6 +30,8 @@
 		059ACCAB15B1B91D00E7E7CC /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
 		059ACCAC15B1B91D00E7E7CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		059ACCB115B1BBAD00E7E7CC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		05FD791C15BAF01000B37B70 /* diary.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = diary.js; path = /Users/sitecore/Desktop/EKB/DiaryProject/Url/diary.js; sourceTree = "<absolute>"; };
+		05FD792015BB252F00B37B70 /* jquery-1.7.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.2.min.js"; sourceTree = "<group>"; };
 		CE7E1FEC15A9921700E82DD2 /* DiaryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E1FF015A9921700E82DD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE7E1FF215A9921700E82DD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,6 +75,15 @@
 			path = HTMLparser;
 			sourceTree = "<group>";
 		};
+		05FD791A15BAEFE000B37B70 /* JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				05FD792015BB252F00B37B70 /* jquery-1.7.2.min.js */,
+				05FD791C15BAF01000B37B70 /* diary.js */,
+			);
+			name = JavaScript;
+			sourceTree = "<group>";
+		};
 		CE7E1FE115A9921700E82DD2 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +116,7 @@
 		CE7E1FF615A9921700E82DD2 /* DiaryProject */ = {
 			isa = PBXGroup;
 			children = (
+				05FD791A15BAEFE000B37B70 /* JavaScript */,
 				CE7E1FFF15A9921700E82DD2 /* AppDelegate.h */,
 				CE7E200015A9921700E82DD2 /* AppDelegate.m */,
 				CE7E200215A9921700E82DD2 /* MainStoryboard.storyboard */,
@@ -178,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7E1FFB15A9921700E82DD2 /* InfoPlist.strings in Resources */,
+				05FD792215BB2B1E00B37B70 /* diary.js in Resources */,
+				05FD792115BB252F00B37B70 /* jquery-1.7.2.min.js in Resources */,
 				CE7E200415A9921700E82DD2 /* MainStoryboard.storyboard in Resources */,
 				059ACCAF15B1B91D00E7E7CC /* README.md in Resources */,
 			);
@@ -191,10 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7E1FFD15A9921700E82DD2 /* main.m in Sources */,
-				CE7E200115A9921700E82DD2 /* AppDelegate.m in Sources */,
-				CE7E200715A9921700E82DD2 /* ViewController.m in Sources */,
-				CE814EF215A9BD6C001AD970 /* StringHelper.m in Sources */,
 				059ACCAD15B1B91D00E7E7CC /* HTMLNode.m in Sources */,
+				CE7E200715A9921700E82DD2 /* ViewController.m in Sources */,
+				CE7E200115A9921700E82DD2 /* AppDelegate.m in Sources */,
+				CE814EF215A9BD6C001AD970 /* StringHelper.m in Sources */,
 				059ACCAE15B1B91D00E7E7CC /* HTMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

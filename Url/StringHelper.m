@@ -34,9 +34,10 @@
 }
 
 - (NSString*)clearString:(NSString *)input{
-    return [self regexReplace:[self regexReplace:[self regexReplace:input  :@"<br.?>" :@"\n"] 
+    return input;
+    /*return [self regexReplace:[self regexReplace:[self regexReplace:input  :@"<br.?>" :@"\n"] 
                                               :@"<.*?>[\\s]*" :@""]
-                      :@"&nbsp;" :@" "] ;
+                      :@"&nbsp;" :@" "] ;*/
      
 }
 @end

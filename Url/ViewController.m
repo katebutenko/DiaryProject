@@ -22,8 +22,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+	    // Do any additional setup after loading the view from its nib.
+    NSString *htmlBeginString = [[NSMutableString alloc] initWithString:@"<!DOCTYPE html><html><head><script type=\"text/javascript\" src=\"diary.js\"></script></head><body><div class=\"myclass\">Header</div><Script Language=\"JavaScript\">function sayHello(){alert(\"oioi\");} </Script><INPUT type=\"button\" value=\"Click Me\" name=\"button1\" onclick=\"javascript:sayHello();\">"];
+    NSString *htmlEndString = [[NSMutableString alloc] initWithString:@"</body></html>"];
+    //if (jQuery) { alert(\"jQuery loaded\");} else {alert(\"tupo\"); }
+    //<script type=\"text/javascript\" src=\"jquery-1.7.2.min.js\"></script>
+    //NSString * resultHtmlString;
+    //resultHtmlString = add(add(htmlBeginString,resultString),htmlEndString);
+    
+    [webView loadHTMLString:add(htmlBeginString,htmlEndString) baseURL:nil];// Do any additional 
+   }
 
 - (void)viewDidUnload
 {
@@ -132,6 +140,33 @@
         }
             }
     [textView setText:resultString];
+
+    //adding javascript
+    //NSString *jqueryCDN = @"http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js";
+   //NSData *jquery = [NSData dataWithContentsOfURL:[NSURL URLWithString:jqueryCDN]];
+    //NSString *jqueryString = [[NSMutableString alloc] initWithData:jquery encoding:NSUTF8StringEncoding];
+    /*NSString *filePath = [[NSBundle mainBundle] pathForResource:@"jquery-1.7.2.min" ofType:@"js" inDirectory:@""];
+    NSData *fileData = [NSData dataWithContentsOfFile:filePath];
+    NSString *jsString = [[NSMutableString alloc] initWithData:fileData encoding:NSUTF8StringEncoding];
+    [webView stringByEvaluatingJavaScriptFromString:jsString];
+                          
+    filePath = [[NSBundle mainBundle] pathForResource:@"diary" ofType:@"js" inDirectory:@""];
+    fileData = [NSData dataWithContentsOfFile:filePath];
+    jsString = [[NSMutableString alloc] initWithData:fileData encoding:NSUTF8StringEncoding];
+    
+    [webView stringByEvaluatingJavaScriptFromString:jsString];*/
+    
+    //adding html
+    NSString *htmlBeginString = [[NSMutableString alloc] initWithString:@"<!DOCTYPE html><html><head></head><script type=\"text/javascript\" src=\"jquery-1.7.2.min.js\"></script><body><div class=\"myclass\">Header</div><Script Language=\"JavaScript\">function sayHello(){$('.myclass').prepend('<p>Test</p>');}</Script><INPUT type=\"button\" value=\"Click Me\" name=\"button1\" onclick=\"javascript:sayHello();\">"];
+    NSString *htmlEndString = [[NSMutableString alloc] initWithString:@"</body></html>"];
+    
+    //NSString * resultHtmlString;
+    //resultHtmlString = add(add(htmlBeginString,resultString),htmlEndString);
+    
+    [webView loadHTMLString:add(htmlBeginString,htmlEndString) baseURL:nil];// Do any additional setup after loading the view, typically from a nib.
+//[webView stringByEvaluatingJavaScriptFromString:@"sayHello()"];
     }
+
+
 
 @end
